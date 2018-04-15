@@ -28,10 +28,10 @@
 
 #define MAX_SEARCH_HITS (500)
 #define NUM_CACHE (3)
-#define STRIKE_HEIGHT (0.375f)
-#define UNDERLINE_HEIGHT (0.075f)
-#define LINE_THICKNESS (0.07f)
-#define INK_THICKNESS (4.0f)
+#define STRIKE_HEIGHT (0.350f) // from orig (0.375f)
+#define UNDERLINE_HEIGHT (0.050f) // from orig (0.075f)
+#define LINE_THICKNESS (0.03f) // from orig (0.07f)
+#define INK_THICKNESS (1.0f) // from orig (4.0f)
 #define SMALL_FLOAT (0.00001)
 #define PROOF_RESOLUTION (300)
 
