@@ -1,3 +1,6 @@
+LOCAL_SHORT_COMMANDS := true
+APP_SHORT_COMMANDS := true
+
 LOCAL_PATH := $(call my-dir)
 TOP_LOCAL_PATH := $(LOCAL_PATH)
 

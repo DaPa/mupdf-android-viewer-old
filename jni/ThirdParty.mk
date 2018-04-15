@@ -19,8 +19,8 @@ LOCAL_C_INCLUDES := \
 LOCAL_CFLAGS := \
 	-DFT2_BUILD_LIBRARY -DDARWIN_NO_CARBON -DHAVE_STDINT_H \
 	-DOPJ_HAVE_STDINT_H -DOPJ_HAVE_INTTYPES_H -DUSE_JPIP \
-	'-DFT_CONFIG_MODULES_H="slimftmodules.h"' \
-	'-DFT_CONFIG_OPTIONS_H="slimftoptions.h"' \
+	-DFT_CONFIG_MODULES_H=\"slimftmodules.h\" \
+	-DFT_CONFIG_OPTIONS_H=\"slimftoptions.h\" \
 	-Dhb_malloc_impl=hb_malloc -Dhb_calloc_impl=hb_calloc \
 	-Dhb_realloc_impl=hb_realloc -Dhb_free_impl=hb_free \
 	-DHAVE_OT -DHAVE_UCDN -DHB_NO_MT

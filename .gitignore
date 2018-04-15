@@ -6,4 +6,4 @@
 /build.xml
 /gradle.properties
 /local.properties
-/mupdf-android-viewer-old.iml
+/*.iml
